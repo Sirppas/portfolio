@@ -6,6 +6,7 @@
     margin-bottom: 3px;
     flex-wrap: wrap;
     align-content: center;
+    width: 65%;
   } 
 .column {
     flex: 16,66%;
@@ -15,14 +16,55 @@
   }
 .rowVaaka {
     display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     align-content: center;
+    width: 65%;
   }
   
 .columnVaaka {
     flex: 33,33%;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
     padding-bottom: 3px;
   }
+.photo_h2 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+.photo_p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    width: auto;
+}
+.contactImage {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    opacity: 0.7;
+}
+.contactBlock {
+    position: absolute;
+    bottom: 390px;
+    right: 460px;
+    background-color: white;
+    opacity: 0.6;
+    padding-bottom: 300px;
+    padding-right: 400px;
+    text-align: center;
+}
+.contactText {
+    color: black;
+    position: absolute;
+    top: 320px;
+    left: 1100px;
+}
+.contactText h4 {
+    padding-bottom: 10px;
+}
