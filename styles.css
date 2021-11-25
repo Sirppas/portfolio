@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    flex-wrap: wrap;
+    align-content: center;
+  } 
+.column {
+    flex: 16,66%;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+  }
+.rowVaaka {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+  }
+  
+.columnVaaka {
+    flex: 33,33%;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 3px;
+  }
