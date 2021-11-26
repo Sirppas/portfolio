@@ -52,7 +52,7 @@
 }
 .contactBlock {
     position: absolute;
-    bottom: 390px;
+    bottom: 380px;
     right: 460px;
     background-color: white;
     opacity: 0.8;
@@ -64,7 +64,7 @@
 .contactText {
     color: black;
     position: absolute;
-    top: 320px;
+    top: 340px;
     left: 1100px;
     z-index: 3;
 }
