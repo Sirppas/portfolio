@@ -1,33 +1,37 @@
 .row {
-  display: flex;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   margin-top: 20px;
   margin-bottom: 3px;
-  flex-wrap: wrap;
-  align-content: center;
-  width: 66%;
+  float: left;
+  display: flex;
 } 
 .column {
-  flex: 16,66%;
+  width: 16,66%;
   padding-right: 3px;
   padding-left: 3px;
   padding-bottom: 3px;
+  float: left;
+  text-align: center;
 }
 .rowVaaka {
-  display: flex;
-  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  align-content: center;
-  width: 66%;
+  float: left;
+  display:block;
+}
+.columnVaaka {
+  width: 33,33%;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  float: left;
 }
 
-.columnVaaka {
-  flex: 33,33%;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-bottom: 3px;
+@media screen and (max-width: 500px) {
+  .column .columnVaaka {
+    width: 100%;
+  }
 }
 .photo_h2 {
   font-style: italic;
