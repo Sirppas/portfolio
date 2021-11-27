@@ -1,37 +1,24 @@
 .row {
-  margin-right: auto;
-  margin-left: auto;
   margin-top: 20px;
   margin-bottom: 3px;
-  float: left;
   display: flex;
+  justify-content: center;
 } 
 .column {
   width: 16,66%;
   padding-right: 3px;
   padding-left: 3px;
   padding-bottom: 3px;
-  float: left;
-  text-align: center;
 }
 .rowVaaka {
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-  display:block;
+  display: flex;
+  justify-content: center;
 }
 .columnVaaka {
   width: 33,33%;
   padding-left: 3px;
   padding-right: 3px;
   padding-bottom: 3px;
-  float: left;
-}
-
-@media screen and (max-width: 500px) {
-  .column .columnVaaka {
-    width: 100%;
-  }
 }
 .photo_h2 {
   font-style: italic;
@@ -86,7 +73,11 @@
   padding-bottom: 10px;
   text-decoration: underline;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
+  .rowVaaka {
+    flex-direction: column;
+    margin-left: 35px;
+  }
   .contactImage {
     height: 288px;
   }
@@ -98,5 +89,8 @@
   .contactText {
     font-size: 12px;
     top: 35%;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    z-index: 4;
   }
 }
