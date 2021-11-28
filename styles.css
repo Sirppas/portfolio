@@ -13,7 +13,6 @@
   border-radius: 50%;
   width: 36px;
   height: 36px;
-  left: 100px;
   margin: -13px;
   float: left;
 }
@@ -35,7 +34,7 @@
 .home_h2 {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 50px;
   margin-left: 60px;
   margin-right: 60px;
@@ -79,7 +78,7 @@
 .photo_h2 {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 50px;
   margin-left: 60px;
   margin-right: 60px;
@@ -94,16 +93,47 @@
   margin-right: 130px;
   width: auto;
 }
-.contactImage {
-  position: relative;
-  width: 98%;
-  display: block;
+.bi-geo-alt {
+  color: white;
+  padding: 20px;
+  width: 200%;
+}
+.bi-telephone {
+  color: white;
+  padding: 20px;
+}
+.bi-envelope {
+  color: white;
+  padding: 20px;
+}
+.contactBox {
+  background-color: rgb(105,111,154);
+  border: none;
+  width: 100%;
+  height: 900px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  z-index: 1;
-  opacity: 0.9;
+}
+.contact_h2 {
+  font-style: italic;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+}
+.contact_p1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 130px;
+  margin-right: 130px;
+  width: auto;
+  color: white;
 }
 @media screen and (max-width: 500px) {
   .main {
@@ -140,7 +170,7 @@
     margin-right: 35px;
   }
   .contactImage {
-    height: 288px;
+    height: auto;
   }
   .rounded-circle {
     margin-left: -150px;
