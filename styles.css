@@ -145,7 +145,7 @@
   margin-left: auto;
   max-width:100%;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .main {
     margin-top: -10px;
   }
