@@ -141,7 +141,7 @@
   width: auto;
   color: white;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   .main {
     margin-top: -10px;
   }
@@ -179,7 +179,7 @@
     height: auto;
   }
   .rounded-circle {
-    margin-left: -150px;
+    margin-left: auto;
     width: 65px;
     height: 65px;
   }
