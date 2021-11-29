@@ -146,9 +146,9 @@
     margin-top: -10px;
   }
   .row {
-    margin-left: 3px;
-    margin-right: 3px;
-    margin-bottom: 5px;
+    margin-left: -5px;
+    margin-right: -2px;
+    margin-bottom: 0px;
   }
   .column {
     margin-bottom: 3px;
@@ -179,9 +179,9 @@
     height: auto;
   }
   .rounded-circle {
-    margin-left: auto;
-    width: 65px;
-    height: 65px;
+    margin-left: 0;
+    width: 64px;
+    height: 64px;
   }
   .navbar-toggler {
     margin-left: 0px;
