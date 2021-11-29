@@ -51,8 +51,8 @@
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 110px;
+  padding-left: 110px;
 }
 .row {
   margin-top: 20px;
@@ -94,8 +94,8 @@
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 110px;
+  padding-left: 110px;
 }
 .bi-geo-alt {
   width: 33,33%;
@@ -172,16 +172,16 @@
   .horsepic {
     margin-top: 15px;
   }
-  .photo_p {
-    margin-left: 20px;
-    margin-right: 20px;
+  .photo_p1 {
+    margin-left: -50px;
+    margin-right: -50px;
   }
   .home_h2 {
     margin-top: 40px;
   }
   .home_p {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: -50px;
+    margin-right: -50px;
   }
   .rounded-circle {
     width: 64px;
