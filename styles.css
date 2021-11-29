@@ -160,14 +160,14 @@
   }
   .column {
     margin-bottom: 3px;
+    
   }
   .rowVaaka {
     flex-direction: column;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: -5px;
+    margin-right: -2px;
   }
   .columnVaaka {
-    width: auto;
     margin-top: -18px;
   }
   .horsepic {
