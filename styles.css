@@ -51,8 +51,8 @@
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
-  padding-right: 35px;
-  padding-left: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .row {
   margin-top: 20px;
@@ -94,8 +94,8 @@
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .bi-geo-alt {
   width: 33,33%;
@@ -180,8 +180,8 @@
     margin-top: 40px;
   }
   .home_p {
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .rounded-circle {
     width: 64px;
